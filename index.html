@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de Estimación y Desarrollo de Software</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        p {
+            text-align: justify;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Modelos de Estimación y Desarrollo de Software</h1>
+
+        <div class="section">
+            <h2>1. ¿Qué son los Modelos de estimación?</h2>
+            <p>Los Modelos de estimación son herramientas o métodos que se usan para calcular el tiempo, el esfuerzo y el costo que se necesitará para completar un proyecto. Es como cuando tratas de adivinar cuánto tiempo te llevará hacer la tarea de matemáticas; los modelos de estimación ayudan a hacer eso pero para proyectos más grandes, como desarrollar un programa de software.</p>
+        </div>
+
+        <div class="section">
+            <h2>2. Comparación de Modelos de Estimación</h2>
+            <p><strong>Modelo COCOMO (Constructive Cost Model):</strong> Este modelo usa una fórmula matemática para calcular el esfuerzo necesario en función del tamaño del software. Es muy bueno para proyectos grandes y complejos.</p>
+            <p><strong>Método de Puntos de Función:</strong> Este modelo mide el tamaño del software basándose en las funcionalidades que ofrece al usuario. Es útil para proyectos donde la funcionalidad y la experiencia del usuario son muy importantes.</p>
+            <p><strong>Comparación:</strong></p>
+            <ul>
+                <li><strong>COCOMO:</strong> Es mejor para proyectos grandes y complejos donde se puede obtener una estimación precisa basada en el tamaño del software.</li>
+                <li><strong>Puntos de Función:</strong> Es más adecuado cuando se quiere evaluar el proyecto desde la perspectiva del usuario y su experiencia, sin importar tanto el tamaño del software.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>3. ¿A qué llamamos la estimación de un proyecto de software?</h2>
+            <p>La estimación de un proyecto de software es el proceso de calcular cuánto tiempo, esfuerzo y recursos se necesitarán para completar el proyecto. Es como cuando intentas calcular cuánto tiempo te llevará estudiar para un examen, pero a una escala mucho mayor y con más detalles.</p>
+        </div>
+
+        <div class="section">
+            <h2>4. Principios Esenciales para el Desarrollo de Sistemas</h2>
+            <ul>
+                <li><strong>Modularidad:</strong> Dividir un sistema en partes más pequeñas y manejables llamadas módulos.</li>
+                <li><strong>Cohesión:</strong> Qué tan bien las tareas en un módulo están relacionadas entre sí.</li>
+                <li><strong>Acoplamiento:</strong> Qué tan dependientes son los módulos entre sí.</li>
+                <li><strong>Abstracción:</strong> Simplificar un sistema ocultando los detalles complejos y mostrando solo las partes esenciales.</li>
+            </ul>
+            <p><strong>Ejemplo de Modularidad:</strong> Supongamos que estamos desarrollando una aplicación de inventario. Podemos dividir la aplicación en módulos como "Gestión de Productos", "Gestión de Usuarios" y "Reportes". Cada módulo se encarga de una parte específica del sistema, lo que hace que sea más fácil de desarrollar y mantener.</p>
+        </div>
+
+        <div class="section">
+            <h2>5. Partes Interesadas (Stakeholders)</h2>
+            <ul>
+                <li><strong>Usuarios Finales:</strong>
+                    <ul>
+                        <li><strong>Rol:</strong> Utilizan la aplicación.</li>
+                        <li><strong>Responsabilidades:</strong> Proporcionar retroalimentación.</li>
+                        <li><strong>Expectativas:</strong> Que la aplicación sea fácil de usar y funcional.</li>
+                    </ul>
+                </li>
+                <li><strong>Desarrolladores:</strong>
+                    <ul>
+                        <li><strong>Rol:</strong> Crean la aplicación.</li>
+                        <li><strong>Responsabilidades:</strong> Escribir y mantener el código.</li>
+                        <li><strong>Expectativas:</strong> Tener especificaciones claras y herramientas adecuadas.</li>
+                    </ul>
+                </li>
+                <li><strong>Gerentes de Proyecto:</strong>
+                    <ul>
+                        <li><strong>Rol:</strong> Supervisan el proyecto.</li>
+                        <li><strong>Responsabilidades:</strong> Planificar, organizar y asegurar que el proyecto se complete a tiempo.</li>
+                        <li><strong>Expectativas:</strong> Que el proyecto se mantenga dentro del presupuesto y del cronograma.</li>
+                    </ul>
+                </li>
+                <li><strong>Diseñadores de UX/UI:</strong>
+                    <ul>
+                        <li><strong>Rol:</strong> Diseñan la interfaz de usuario.</li>
+                        <li><strong>Responsabilidades:</strong> Asegurarse de que la aplicación sea visualmente atractiva y fácil de usar.</li>
+                        <li><strong>Expectativas:</strong> Obtener retroalimentación clara y oportuna sobre sus diseños.</li>
+                    </ul>
+                </li>
+                <li><strong>Clientes:</strong>
+                    <ul>
+                        <li><strong>Rol:</strong> Financian el proyecto.</li>
+                        <li><strong>Responsabilidades:</strong> Proveer recursos y definir los requisitos.</li>
+                        <li><strong>Expectativas:</strong> Que el producto final cumpla con sus necesidades y objetivos.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>6. Plan de Proyecto para un Sistema de Gestión de Inventario</h2>
+            <ul>
+                <li><strong>Fase 1: Planificación</strong>
+                    <ul>
+                        <li>Definir requisitos</li>
+                        <li>Establecer un cronograma</li>
+                        <li>Asignar recursos</li>
+                    </ul>
+                </li>
+                <li><strong>Fase 2: Análisis</strong>
+                    <ul>
+                        <li>Analizar requisitos</li>
+                        <li>Crear especificaciones detalladas</li>
+                    </ul>
+                </li>
+                <li><strong>Fase 3: Diseño</strong>
+                    <ul>
+                        <li>Diseñar la arquitectura del sistema</li>
+                        <li>Diseñar la base de datos</li>
+                    </ul>
+                </li>
+                <li><strong>Fase 4: Desarrollo</strong>
+                    <ul>
+                        <li>Programar los módulos del sistema</li>
+                        <li>Integrar módulos</li>
+                    </ul>
+                </li>
+                <li><strong>Fase 5: Pruebas</strong>
+                    <ul>
+                        <li>Probar el sistema</li>
+                        <li>Corregir errores</li>
+                    </ul>
+                </li>
+                <li><strong>Fase 6: Implementación</strong>
+                    <ul>
+                        <li>Desplegar el sistema</li>
+                        <li>Capacitar a los usuarios</li>
+                    </ul>
+                </li>
+                <li><strong>Fase 7: Mantenimiento</strong>
+                    <ul>
+                        <li>Resolver problemas</li>
+                        <li>Actualizar el sistema</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>7. Normas y Estándares para el Desarrollo de Software</h2>
+            <ul>
+                <li><strong>Convenciones de Nombres:</strong> Usar nombres descriptivos y consistentes para variables y funciones.
+                    <ul>
+                        <li><strong>Ejemplo:</strong> En lugar de usar `x` o `temp`, usar `contadorDeUsuarios` o `fechaDeNacimiento`.</li>
+                    </ul>
+                </li>
+                <li><strong>Formato del Código:</strong> Seguir un estilo consistente de sangría y espaciado.
+                    <ul>
+                        <li><strong>Ejemplo:</strong> Usar cuatro espacios para cada nivel de sangría en el código.</li>
+                    </ul>
+                </li>
+                <li><strong>Documentación del Código:</strong> Comentar el código para explicar su propósito y funcionamiento
